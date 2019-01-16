@@ -84,11 +84,11 @@
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
                     </systemPropertyVariables>
-                  <!-- 
+                   
                     <parallel>classes</parallel>
                     <threadCount>4</threadCount>
                     <perCoreThreadCount>true</perCoreThreadCount>
-                   -->
+                   
                 </configuration>
                 <executions>
                     <execution>
