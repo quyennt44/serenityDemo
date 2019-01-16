@@ -11,7 +11,7 @@ pipeline {
         }
         
         stage("report aggregation") {
-          node {
+          steps {
           // publish the Serenity report
           publishHTML(target: [
                 reportName : 'Serenity',
