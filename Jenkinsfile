@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'master'
+        label 'Ubuntu_14'
     }   
 
     stages {
